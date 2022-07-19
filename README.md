@@ -1,5 +1,5 @@
 # Collection of Python scripts and Jupyter notebooks 
-## Exploring applications of data acquisition, cleaning and application of machine learning models
+## Exploring techniques of data acquisition, cleaning and application of machine learning models
 The repository is divided into sub modules where a unique problems are tackled, each module contains all the necessary ingreadents (data, data acquisition scripts and analysis notebooks) for completion of these relatively small projects. 
 
 - ## [Rent prediction for Hamburg from the web-scraped data](https://github.com/meghanad-kayanattil/Data_Science_Python_notebooks/tree/main/Rent%20prediction%20wt%20linear%20regression-Hamburg-2022-July)
