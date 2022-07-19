@@ -11,7 +11,7 @@ i = 1
 price_all = []
 area_all = []
 room_all = [] 
-while i != 31:
+while i != 45:
       url = f'https://www.immowelt.de/liste/hamburg/wohnungen/mieten?sort=relevanz&sp={i}'
       print(url)
       i = i + 1
@@ -38,7 +38,7 @@ while i != 31:
           area_all.append(a.text)
           room_all.append(r.text)
           
-file = open('housing_data_hamburg.txt', 'w+')
+file = open('housing_data_hamburg_v2.txt', 'w+')
 
 head = 'Area'+'\t'+'Rooms'+'\t'+'Rent'+'\n'
 
