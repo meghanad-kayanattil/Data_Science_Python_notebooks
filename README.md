@@ -1,4 +1,4 @@
-# Collection of Python scripts and Jypyter notebooks 
+# Collection of Python scripts and Jupyter notebooks 
 ## Exploring applications of data acquisition, cleaning and application of machine learning models
 The repository is divided into sub modules where a unique problems are tackled, each module contains all the necessary ingreadents (data, data acquisition scripts and analysis notebooks) for completion of these relatively small projects. 
 
