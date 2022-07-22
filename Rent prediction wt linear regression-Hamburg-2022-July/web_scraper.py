@@ -13,7 +13,9 @@ room_all = []
 districts = []
 
 while i != 45:
-    url = f'https://www.immowelt.de/liste/hamburg/wohnungen/mieten?sort=relevanz&sp={i}'
+    # url = f'https://www.immowelt.de/liste/hamburg/wohnungen/mieten?sort=relevanz&sp={i}'
+    url = f'https://www.immowelt.de/liste/hamburg/wohnungen/mieten?d=true&sd=DESC&sf=TIMESTAMP&sp={i}'
+    print(f'page number = {i}')
     i = i + 1
     page = requests.get(url)
     print(page)
@@ -49,7 +51,7 @@ while i != 45:
             districts.append(district)
     # location = soup.find_all('div')
 # %% Writing the scraped data into file
-file = open('housing_data_hamburg_v3.txt', 'w+')
+file = open('housing_data_hamburg_v4.txt', 'w+')
 
 head = 'Area'+'\t'+'Rooms'+'\t'+'Location'+'\t'+'Rent'+'\n'
 
