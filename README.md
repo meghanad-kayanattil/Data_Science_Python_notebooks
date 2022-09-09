@@ -8,4 +8,4 @@ The repository is divided into sub modules where a unique problems are tackled, 
   
   **Analysis**: After cleaning the data a linear regression ([SGDRegressor](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.SGDRegressor.html#sklearn.linear_model.SGDRegressor)) is implemented using <code>scikit-learn</code>. Additional required libraries are <code>Numpy, Matplotlib   and pandas</code>.
   
-  **Take aways**: More features (like, specific location, age of the building, other amenities like balcony, furnishing etc.) are needed for a very accurate     prediction. But, for now this will serve as a simple introduction to linear regression. 
+  **Take aways**: More data and more features (like, specific location, age of the building, other amenities like balcony, furnishing etc.) are needed for a very accurate     prediction. But, for now this will serve as a simple introduction to linear regression. 
